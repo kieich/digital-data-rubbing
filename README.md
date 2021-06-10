@@ -25,11 +25,13 @@ When comparing the work of Pentagram’s Georgia Lupi & team with the dot repres
 
 <img src="./assets/img/chart3-01.jpg" width="700">
 
-Ultimately, these learnings from the “one dot = one death” concept became a foundational component of my first prototypes of a data visualization that could sensitize large scale death data sets.
+Ultimately, these learnings from the “one dot = one death” concept became a foundational component of my first prototypes of a data visualization that could sensitize large scale death data sets. <br>
 <br>
 
 ## RITUALS
 <img src="./assets/img/Name-Rubbing.jpg" width="700">
+
+> Photo credit: Vietnam Veterans Memorial Fund
 
 The next step was to imagine how data visualization could not only be emotionally engaging, but also, be transformed into a personal, reflective experience. To do so, I researched and analyzed different mourning and memorialization rituals in the physical world. There is a palette of rituals and symbolic gestures around death that people have done for many years. A moment of silence, serving flowers, igniting candles, and so on. What emerged to be important though was to find rituals that were both private and public in experience, in that people have a space to perform an action individually, but this action is part of or related to a larger public context that pertains to something like reflection and mourning in the time of COVID-19. <br>
 
@@ -38,7 +40,7 @@ Among all rituals I found, I was particularly attracted to the name rubbing, the
 From a data visualization perspective, rubbing is a very interesting interaction because it can both minimize the density of information and increase the density of information. For example, when someone performs a name rubbing at the Vietnam Memorial Wall, they lose part of the shape of each alphabet while they are adding a new texture and color found from the paper and pencil. <br>
 
 Inspired, I wondered whether there could be a digital version of this name rubbing experience. I analyzed it to see whether it could be used to emotionally engage, in a personal, reflective, way, with COVID-19 death data. I believed that if successful, it could be a mechanism for creating digital spaces for private experiences within public experiences. <br>
-
+<br>
 
 ## USER EXPERIENCE
 At the synthesis of my research on dot representation and the name rubbing ritual came the concept and development for digital data rubbing. In its simplest essence, it is a d3 data visualization on the Observable platform that allows people to interact with COVID-19 death toll data. However, in interaction and form, it hopes to invite people to engage and reflect upon death in a new way. <br>
