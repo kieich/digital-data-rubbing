@@ -1,5 +1,5 @@
 # Digital Data Rubbing
-What if data visualization could be more than just numbers and efficiency, and actually engage human emotions like a personal story does?
+What if data visualization could be more than just numbers and efficiency, and actually engage human emotions like a personal story does? <br>
 
 ## DATA
 <img src="./assets/img/value-of-life-saving.png" width="700">
@@ -26,5 +26,27 @@ When comparing the work of Pentagram’s Georgia Lupi & team with the dot repres
 <img src="./assets/img/chart3-01.jpg" width="700">
 
 Ultimately, these learnings from the “one dot = one death” concept became a foundational component of my first prototypes of a data visualization that could sensitize large scale death data sets.
+<br>
+
+## RITUALS
+<img src="./assets/img/Name-Rubbing.jpg" width="700">
+
+The next step was to imagine how data visualization could not only be emotionally engaging, but also, be transformed into a personal, reflective experience. To do so, I researched and analyzed different mourning and memorialization rituals in the physical world. There is a palette of rituals and symbolic gestures around death that people have done for many years. A moment of silence, serving flowers, igniting candles, and so on. What emerged to be important though was to find rituals that were both private and public in experience, in that people have a space to perform an action individually, but this action is part of or related to a larger public context that pertains to something like reflection and mourning in the time of COVID-19. <br>
+
+Among all rituals I found, I was particularly attracted to the name rubbing, the beautiful moment at the Vietnam Veterans Memorial Wall designed by American architect Maya Lin. Name rubbing, something that was invented by visitors, rather than being planned by the architect, attaches significance to time and action. People who want to take a “piece of the wall” back with them, to their homes, or perhaps who weren’t able to visit in the first place but still want to make a connection, get someone to rub the name of their loved ones using paper and pencil. I found this to be a powerful interaction in that it creates a private moment in front of a large public memorial wall. <br>
+
+From a data visualization perspective, rubbing is a very interesting interaction because it can both minimize the density of information and increase the density of information. For example, when someone performs a name rubbing at the Vietnam Memorial Wall, they lose part of the shape of each alphabet while they are adding a new texture and color found from the paper and pencil. <br>
+
+Inspired, I wondered whether there could be a digital version of this name rubbing experience. I analyzed it to see whether it could be used to emotionally engage, in a personal, reflective, way, with COVID-19 death data. I believed that if successful, it could be a mechanism for creating digital spaces for private experiences within public experiences. <br>
+
+
+## USER EXPERIENCE
+At the synthesis of my research on dot representation and the name rubbing ritual came the concept and development for digital data rubbing. In its simplest essence, it is a d3 data visualization on the Observable platform that allows people to interact with COVID-19 death toll data. However, in interaction and form, it hopes to invite people to engage and reflect upon death in a new way. <br>
+
+When you first land on the Observable page, there is a long, white canvas, below the title that creates a sense of possibility. The page will remain blank until the visitor uses their cursor to click and drag across the blank page, as if they were rubbing a pencil on an actual blank piece of paper. After a few moments, a mosaic of color will start to appear and become more and more saturated as the visitor continues the digital rubbing motion. Once saturated enough, the visitor will notice that certain Country and Date text will appear in response to where the cursor is located on the page. For example, it might say “China 2020-01-22”, “France 2020-12-31”, “Russia 2021-01-04”. It becomes a moving meditation of sorts, that intrigues visitors to read the text and influence the saturation and movement of the colors. Once the visitor stops the dragging rubbing motion on the canvas, the colors will slowly fade away until the canvas turns white again. <br>
+
+On the back-end, what is happening is that the canvas pixels are connected to COVID-19 death data from 191 countries. One pixel on the canvas equates to one death from one country on a given date. As the cursor “rubs” over a pixel, color is added to that pixel, and simultaneously, the logic is such that since that pixel is connected to a certain country, the rubbing motion will also activate and color in all the other pixels connected to that country. For example, if we rub over one death that took place on Feb 13 in China, all deaths in China will be colored. And so, the more a visitor rubs deaths from different countries, the more saturated the hues of color on the entire canvas will look. Once the color is dense enough, a visitor can see the blocks of small text appear that give information about the location and date. There needs to be patience in order to read all of the details. It’s barely legible, just like the rubbing of text or beach sand text. This is part of the design decision to not make this about efficiency, but rather about emotional engagement. <br>
+
+Furthermore, the digital data rubbing canvas is completely dynamic, meaning it responds to the growing number of death rates. For example, on January 6, 2021, the data source reported a total of 1,872,088 deaths, which means there were 1,872,088 pixels on the canvas that could be colored in through the rubbing motion. Today, that number is inevitably higher, which means the number of pixels that can be activated on the canvas is larger too. <br>
 
 
