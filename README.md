@@ -1,7 +1,8 @@
 # Digital Data Rubbing
 What if data visualization could be more than just numbers and efficiency, and actually engage human emotions like a personal story does? <br>
 
-Special thanks to Alexandria Rengifo. <br>
+> Special thanks to Alexandria Rengifo. <br>
+<br>
 
 ## DATA
 <img src="./assets/img/value-of-life-saving.png" width="700">
