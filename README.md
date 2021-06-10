@@ -17,7 +17,7 @@ Building upon this insight, I sought to explore and find a way of visualizing la
 <br>
 
 ## VISUALIZATION
-<img src="https://pentagram-production.imgix.net/nullnullnullnullb28f7bd3-4a17-4a50-8602-5f74ad40b94b/GL_Cuomo_05.png">
+<img src="https://pentagram-production.imgix.net/nullnullnullnullb28f7bd3-4a17-4a50-8602-5f74ad40b94b/GL_Cuomo_05.png" width="700">
 
 On Sunday, May 24, 2020, on [the front page of The New York Times](https://www.nytimes.com/2020/05/26/learning/the-front-page.html), instead of a colorful mix of articles, photographs, and graphics, there was a long, solemn list of 100,000 people whose lives were lost due to the coronavirus pandemic. Readers reacted differently on whether this was a good decision or bad decision. Some appreciated that the front page paid respect to and honored the deceased. Other readers pointed out that it had poor legibility and possibly a negative effect on readers’ emotional state. <br>
 
