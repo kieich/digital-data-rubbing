@@ -2,10 +2,9 @@
 What if data visualization could be more than just numbers and efficiency, and actually engage human emotions like a personal story does?
 
 ## DATA
-<figure>
-<img src="./assets/img/value-of-life-saving.png" width="450">
-<figcaption>test</figcaption>
-</figure>
+<img src="./assets/img/value-of-life-saving.png" width="700">
+
+> Normative Models where (a) every life is of equal value and (b) large losses threaten group or societal descriptive models of (c) psychophysical numbing and (d) psychic numbing and the collapse of compassion, Image Credit: Paul Slovic and Daniel Västfjäll
 
 To understand why traditional data visualization is not a great medium for connecting emotionally with sensitive topics, such as death rates in the midst of a pandemic, we need to understand how humans perceive data sets. <br>
 
